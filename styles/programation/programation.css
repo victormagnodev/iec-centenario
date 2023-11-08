@@ -9,17 +9,10 @@
 
 .event-list h2 {
   margin-bottom: 40px;
-  position: relative;
 }
 
-.event-list h2::before {
-  content: "";
-  width: 5px;
-  height: 30px;
+#programacao.h2::before {
   background-color: var(--p2);
-  position: absolute;
-  top: 6px;
-  left: 10px;
 }
 
 .event-list ul {
