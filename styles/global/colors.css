@@ -1,3 +1,10 @@
+:root{
+  --p1:rgb(236, 177, 47);
+  --p2:rgb(255, 219, 143);
+
+  --c2: #131313;
+}
+
 /* Gray Scale */
 
 .c0 {
@@ -9,11 +16,15 @@
 }
 
 .c2{
-    color: #131313;
+    color: var(--c2);
 }
 
 /* Primary Color */
 
 .p1 {
-  color: rgb(236, 177, 47);
+  color: var(--p1);
+}
+
+.p2{
+  color: var(--p2);
 }

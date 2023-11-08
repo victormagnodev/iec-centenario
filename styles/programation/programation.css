@@ -1,0 +1,62 @@
+.event-bg {
+  background-color: var(--p1);
+}
+
+.event-list {
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+
+.event-list h2 {
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.event-list h2::before {
+  content: "";
+  width: 5px;
+  height: 30px;
+  background-color: var(--p2);
+  position: absolute;
+  top: 6px;
+  left: 10px;
+}
+
+.event-list ul {
+  display: flex;
+  gap: 40px;
+  padding: 0 20px 20px 20px;
+  max-width: 1360px;
+  margin: 0 auto;
+  overflow-x: auto;
+}
+
+.event-list li {
+  width: 400px;
+  min-width: 280px;
+}
+
+.event-list a {
+  display: block;
+}
+
+.event-list img {
+  max-width: 99%;
+  transition: 0.2s;
+}
+
+.event-list img:hover {
+  max-width: 100%;
+}
+
+@media (max-width:800px){
+    .event-list{
+        padding-top: 40px;
+        padding-bottom: 60px;
+
+    }
+
+    .event-list ul{
+        gap: 20px;
+    }
+}
