@@ -1,0 +1,106 @@
+.mensage-bg {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #f1f1f1;
+}
+
+.mensage-img-container {
+  height: 600px;
+  align-items: center;
+}
+
+.mensage-img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+.mensage {
+  align-self: center;
+  padding: 40px;
+  position: relative;
+}
+
+.mensage span {
+  bottom: -10px;
+  position: absolute;
+  font-size: 4rem;
+}
+
+.mensage q {
+  position: relative;
+}
+
+.mensage q::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 100%;
+  background-color: var(--p1);
+  left: -20px;
+}
+
+.mensage::after {
+  position: absolute;
+  content: "";
+  background-size: cover;
+  height: 100px;
+  width: 92px;
+  top: 110%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  background-image: url("../../img/IECC-Logo.svg");
+}
+
+@media (max-width: 1000px) {
+  .mensage q,
+  .mensage strong {
+    font-size: 1.5rem;
+  }
+
+  .mensage::after {
+    position: absolute;
+    content: "";
+    background-size: cover;
+    height: 80px;
+    width: 73px;
+    top: 105%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url("../../img/IECC-Logo.svg");
+  }
+}
+
+@media (max-width: 600px) {
+  .mensage-bg {
+    grid-template-columns: 1fr;
+  }
+
+  .mensage-img-container {
+    max-height: 300px;
+  }
+
+  .mensage q {
+    margin-bottom: 20px;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    text-indent: 30px;
+  }
+
+  .mensage strong {
+    font-size: 1.25rem;
+  }
+
+  .mensage::after {
+    position: absolute;
+    content: "";
+    background-size: cover;
+    height: 80px;
+    width: 73px;
+    top: -1%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url("../../img/IECC-Logo.svg");
+  }
+}
