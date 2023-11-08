@@ -28,7 +28,6 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-self: space-between;
   font-size: 2rem;
   background-color: #eee;
   padding: 20px;
@@ -55,4 +54,30 @@
 
 .cult-day span{
     padding-bottom: 20px;
+}
+
+@media(max-width:800px){
+    .cult-list{
+        gap: 20px;
+        padding: 20px 0px;
+    }
+
+    .cult-list ul{
+        gap: 20px;
+    }
+
+    .cult-day {
+        width: 100%;
+        min-height: auto;
+        padding: 10px;
+      }
+
+    .cult-day h3{
+        font-size: 1.3rem;
+    }
+
+    .cult-day span{
+        font-size: 1.2rem;
+        padding: 5px;
+    }
 }
