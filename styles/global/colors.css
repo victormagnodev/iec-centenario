@@ -2,18 +2,19 @@
   --p1:rgb(236, 177, 47);
   --p2:rgb(255, 219, 143);
   --p3:rgb(153, 107, 9);
-
+  --c0: #fff;
+  --c1: #b2b2b2;
   --c2: #131313;
 }
 
 /* Gray Scale */
 
 .c0 {
-  color: #fff;
+  color: var(--c0);
 }
 
 .c1 {
-  color: #b2b2b2;
+  color: var(--c1);
 }
 
 .c2{
