@@ -35,6 +35,7 @@
   height: 100%;
   min-height: 200px;
   border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .cult-day::before {
@@ -48,36 +49,57 @@
   background-color: var(--p1);
 }
 
+.cult-day::after {
+  content: "";
+  width: 100%;
+  height: 0px;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  background-color: var(--p1);
+  transition:0.5s;
+  color: var(--c0);
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.cult-day:hover::after {
+  content: "Venha nos visitar";
+  height: 20px;
+}
+
 .cult-day h3 {
   margin-bottom: 20px;
 }
 
-.cult-day span{
-    padding-bottom: 20px;
+.cult-day span {
+  padding-bottom: 20px;
 }
 
-@media(max-width:800px){
-    .cult-list{
-        gap: 20px;
-        padding: 20px 0px;
-    }
+@media (max-width: 800px) {
+  .cult-list {
+    gap: 20px;
+    padding: 20px 0px;
+  }
 
-    .cult-list ul{
-        gap: 20px;
-    }
+  .cult-list ul {
+    gap: 20px;
+  }
 
-    .cult-day {
-        width: 100%;
-        min-height: auto;
-        padding: 10px;
-      }
+  .cult-day {
+    width: 100%;
+    min-height: auto;
+    padding: 10px;
+  }
 
-    .cult-day h3{
-        font-size: 1.3rem;
-    }
+  .cult-day h3 {
+    font-size: 1.3rem;
+  }
 
-    .cult-day span{
-        font-size: 1.2rem;
-        padding: 5px;
-    }
+  .cult-day span {
+    font-size: 1.2rem;
+    padding: 5px;
+  }
 }
