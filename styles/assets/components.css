@@ -10,17 +10,18 @@
 .btn {
   padding: 16px 32px;
   display: inline-block;
-  background: linear-gradient(#ffbf00, #f2a50c);
+  background: var(--p1);
   border-radius: 4px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-  color: #fff;
+  color: var(--c0);
   font-size: 1.2rem;
   line-height: 1.33;
   font-weight: bold;
 }
 
 .btn:hover {
-  background: linear-gradient(#ffb60d, #e59317);
+  background: var(--p2);
+  color: var(--c2);
 }
 
 @media (max-width: 600px) {

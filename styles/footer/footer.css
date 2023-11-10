@@ -1,5 +1,5 @@
 .footer-bg{
-    background-color: var(--c2);
+    background-color: var(--p3);
 }
 
 .footer-bg h2{
@@ -26,7 +26,7 @@
 }
 
 .footer-logo:hover{
-    box-shadow: rgba(234, 215, 7, 0.383) 0px 7px 29px 0px;
+    box-shadow: var(--p3) 0px 7px 29px 0px;
 }
 
 .footer-contact ul{
@@ -38,7 +38,7 @@
     display: block;
     max-width: 360px;
     height: 2px;
-    background: rgb(57, 57, 57);
+    background: rgb(77, 59, 30);
     margin-top: 16px;
 }
 
@@ -57,7 +57,7 @@
 }
 
 .footer a:hover{
-    color: var(--p1);
+    color: var(--p2);
 }
 
 .footer-copy{
