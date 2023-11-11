@@ -24,6 +24,19 @@
   overflow-x: auto;
 }
 
+::-webkit-scrollbar {
+  height: 8px;
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--p2);
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--c0);
+}
+
 .event-list li {
   width: 400px;
   min-width: 280px;
@@ -52,4 +65,10 @@
     .event-list ul{
         gap: 20px;
     }
+}
+
+@media (max-width:600px){
+  .event-list h2{
+    font-size: 2rem;
+  }
 }

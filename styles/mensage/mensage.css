@@ -46,11 +46,11 @@
   content: "";
   background-size: cover;
   height: 100px;
-  width: 92px;
+  width: 100px;
   top: 110%;
   left: 80%;
   transform: translate(-50%, -50%);
-  background-image: url("../../img/IECC-Logo.svg");
+  background-image: url("../../img/iecc-logo-c.png");
 }
 
 @media (max-width: 1000px) {
@@ -64,11 +64,11 @@
     content: "";
     background-size: cover;
     height: 80px;
-    width: 73px;
+    width: 80px;
     top: 105%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image: url("../../img/IECC-Logo.svg");
+    background-image: url("../../img/iecc-logo-c.png");
   }
 }
 
@@ -97,10 +97,10 @@
     content: "";
     background-size: cover;
     height: 80px;
-    width: 73px;
+    width: 80px;
     top: -1%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image: url("../../img/IECC-Logo.svg");
+    background-image: url("../../img/iecc-logo-c.png");
   }
 }
