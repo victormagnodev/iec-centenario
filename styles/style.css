@@ -9,3 +9,7 @@
 @import "./cult/cult.css";
 @import "./pix/pix.css";
 @import "./global/footer.css";
+
+/* Story Page */
+
+@import "./story/story.css"

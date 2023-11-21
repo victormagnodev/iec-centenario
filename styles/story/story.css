@@ -1,0 +1,30 @@
+.story-bg{
+    background-color: var(--c0);
+}
+
+.story{
+    padding: 60px;
+}
+
+.story h1{
+    margin-bottom: 40px;
+}
+
+.story h1::before{
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 47px;
+    background-color: var(--p2);
+    top: 0;
+    left: 0;
+}
+
+.story h2{
+    margin-bottom: 20px;
+}
+
+.story p{
+    text-indent: 40px;
+}
+
